@@ -7,28 +7,28 @@
 	background: peru;
 } */
 
-/* selector universal */
+/* selector universal
 * {
 	border: 1px solid red;
 	margin: 10px;
 }
 
-/* selector de etiqueta */
+selector de etiqueta
 header {
 	background: blue;
 }
 
-/* selector de etiqueta a otra etiqueta */
+selector de etiqueta a otra etiqueta
 section {
 	background: purple;
 }
 
-/* selector descendente */
+selector descendente
 h3 {
 	color: green;
 }
 
-/* selectores de clase */
+selectores de clase
 .title-a {
 	background: yellow;
 }
@@ -36,7 +36,7 @@ h3 {
 	background: salmon;
 }
 
-/* selector de id */
+selector de id
 #header {
 	border: 3px solid black;
 }
@@ -45,4 +45,26 @@ h3 {
 }
 #guitarras {
 	border: 3px solid brown;
+} */
+.titulo {
+	font-size: 70px;
+}
+.title-a {
+	font-size: 24px;
+}
+.title-b {
+	font-size: 50px;
+}
+.guitarras {
+	color: #1F313C;
+}
+.guitarras h2 {
+	font-size: 35px;
+}
+.portada {
+	background-image: url('../images/background.png');
+	color: white;
+}
+.menu {
+	font-size: 24px;
 }
