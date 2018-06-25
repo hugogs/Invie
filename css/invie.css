@@ -2,32 +2,26 @@
 	propiedad:  valor;
 	propiedad-2:  valor;
 } */
-
 /* body {
 	background: peru;
 } */
-
 /* selector universal
 * {
 	border: 1px solid red;
 	margin: 10px;
 }
-
 selector de etiqueta
 header {
 	background: blue;
 }
-
 selector de etiqueta a otra etiqueta
 section {
 	background: purple;
 }
-
 selector descendente
 h3 {
 	color: green;
 }
-
 selectores de clase
 .title-a {
 	background: yellow;
@@ -35,7 +29,6 @@ selectores de clase
 .title-b {
 	background: salmon;
 }
-
 selector de id
 #header {
 	border: 3px solid black;
@@ -47,7 +40,24 @@ selector de id
 	border: 3px solid brown;
 } */
 
+* {
 
+	/* width: tamaño; */
+	/* height: tamaño */
+	padding: 10px;
+	/* padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 13px;
+	padding-bottom: 5px; */
+	/* padding: 10px 13px 5px 15px; */
+	margin: 10px;
+	/* margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 13px;
+	margin-bottom: 5px; */
+	/* margin: 10px 13px 5px 15px; */
+	border: 2px solid red;
+}
 body {
 	font-family: 'Allerta', sans-serif;
 }
@@ -72,6 +82,10 @@ body {
 	background-image: url('../images/background.png');
 	color: white;
 }
+/* Para no repetir 03 veces display: inline-block //Buena practica
+.logotipo, .menu, .menu li {
+	display: inline-block;
+} */
 .menu {
 	font-size: 24px;
 	display: inline-block;
@@ -82,7 +96,3 @@ body {
 .logotipo {
 	display: inline-block;
 }
-/* Para no repetir 03 veces display: inline-block //Buena practica
-.logotipo, .menu, .menu li {
-	display: inline-block;
-} */
