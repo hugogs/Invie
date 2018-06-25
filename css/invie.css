@@ -46,7 +46,13 @@ selector de id
 #guitarras {
 	border: 3px solid brown;
 } */
+
+
+body {
+	font-family: 'Allerta', sans-serif;
+}
 .titulo {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
 }
 .title-a {
@@ -59,6 +65,7 @@ selector de id
 	color: #1F313C;
 }
 .guitarras h2 {
+	ont-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 }
 .portada {
