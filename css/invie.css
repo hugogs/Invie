@@ -74,4 +74,15 @@ body {
 }
 .menu {
 	font-size: 24px;
+	display: inline-block;
 }
+.menu li {
+	display: inline-block;
+}
+.logotipo {
+	display: inline-block;
+}
+/* Para no repetir 03 veces display: inline-block //Buena practica
+.logotipo, .menu, .menu li {
+	display: inline-block;
+} */
