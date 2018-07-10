@@ -40,8 +40,8 @@ selector de id
 	border: 3px solid brown;
 } */
 
-/* * {
-	width: tamaño;
+* {
+	/* width: tamaño;
 	height: tamaño;
 	padding: 10px;
 	padding-top: 10px;
@@ -54,9 +54,9 @@ selector de id
 	margin-left: 15px;
 	margin-right: 13px;
 	margin-bottom: 5px;
-	margin: 10px 13px 5px 15px;
-	border: 2px solid red;
-} */
+	margin: 10px 13px 5px 15px; */
+	/* border: 2px solid red; */
+}
 body {
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
@@ -77,8 +77,6 @@ body {
 }
 .guitarras {
 	color: #1F313C;
-	width: 800px;
-	margin: auto;
 }
 .guitarras h2 {
 	ont-family: 'Montserrat', sans-serif;
@@ -88,8 +86,6 @@ body {
 	background-image: url('../images/background.png');
 	color: white;
 	padding: 20px;
-	width: 800px;
-	margin: auto;
 }
 .portada button {
 	margin-bottom: 70px;
@@ -109,7 +105,8 @@ body {
 .logotipo {
 	display: inline-block;
 }
-.header {
+/* Se pueden repetir y un solo elemento puede tener las clases */
+.contenedor {
 	width: 800px;
 	margin: auto;
 }
