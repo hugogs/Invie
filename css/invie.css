@@ -97,6 +97,8 @@ body {
 .menu {
 	font-size: 24px;
 	display: inline-block;
+	position: absolute;
+	right: 0px;
 }
 .menu li {
 	display: inline-block;
@@ -124,13 +126,20 @@ body {
 }
 .derecha {
 	float: right;
+	position: relative;
+	top: -127px;
 }
 .izquierda {
 	float: left;
+	position: relative;
+	top: 80px;
 }
 .contenedor-guitarra-a {
 	padding-left: 20px;
 }
 .contenedor-guitarra-b {
 	margin-left: 370px;
+}
+.header {
+	position: absolute;	
 }
