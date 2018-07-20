@@ -61,6 +61,13 @@ body {
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
 }
+button {
+	border-radius: 5px;
+	border: none;
+	background: #fd324e;
+	color: white;
+	padding: 7px;
+}
 .titulo {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
@@ -141,5 +148,5 @@ body {
 	margin-left: 370px;
 }
 .header {
-	position: absolute;	
+	position: absolute;
 }
