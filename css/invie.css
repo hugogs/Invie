@@ -71,7 +71,7 @@ button {
 .titulo {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
-	margin-bottom: 15px;
+	margin-bottom: 0;
 	margin-top: 70px;
 }
 .title-a {
@@ -105,7 +105,7 @@ button {
 	font-size: 24px;
 	display: inline-block;
 	position: absolute;
-	right: 0px;
+	right: 0;
 }
 .menu li {
 	display: inline-block;
@@ -114,6 +114,7 @@ button {
 .logotipo {
 	display: inline-block;
 }
+
 /* Se pueden repetir y un solo elemento puede tener las clases */
 .contenedor {
 	width: 800px;
@@ -125,8 +126,9 @@ button {
 .guitarra {
 	margin: 10px;
 	padding: 10px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	border: 1px solid #1F313C;
+	border-radius: 8px;
 }
 .guitarra ol {
 	padding: 0;
@@ -148,5 +150,18 @@ button {
 	margin-left: 370px;
 }
 .header {
-	position: absolute;
+	position: relative;
+}
+.footer {
+	background: #273b47;
+}
+.contacto img {
+	display: block;
+}
+.contacto strong {
+	display: block;
+}
+.contacto a {
+	color: white;
+	text-decoration: none;
 }
