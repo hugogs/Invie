@@ -202,3 +202,21 @@ body {
 .sexo{
 	margin-top: 12px;
 }
+table{
+	width: 100%;
+}
+th{
+	background: #273b47;
+	color: white;
+}
+th{
+	padding: 10px 20px;
+	text-align: left;
+}
+td{
+	padding: 20px;
+}
+table, td, th{
+	border: 1px solid;
+	border-collapse: collapse;
+}
