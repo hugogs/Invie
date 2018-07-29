@@ -61,18 +61,70 @@ body {
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
 }
-.button {
-	border-radius: 5px;
-	border: none;
-	background: #fd324e;
+table{
+	width: 100%;
+}
+th{
+	background: #273b47;
 	color: white;
-	padding: 7px;
+}
+th{
+	padding: 10px 20px;
+	text-align: left;
+}
+td{
+	padding: 20px;
+}
+table, td, th{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+input, textarea{
+	outline: 0;
+}
+input:focus, textarea:focus{
+	background: lightgray;
+}
+/* Se pueden repetir y un solo elemento puede tener las clases */
+.contenedor {
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+.background{
+	background-image: url('../images/background.png');
+	background-size: cover;
+}
+.button {
+	border-radius: 12px;
+	border: none;
+	color: white;
+	padding: 7px 12px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	background: #fd324e;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+	/* Old browsers */
+	/* background: #f3c5bd; */
+	/* FF3.6-15 */
+	/* background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); */
+	/* Chrome10-25,Safari5.1-6 */
+	/* background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); */
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/* background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); */
+	/* IE6-9 */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); */
 }
 .titulo {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
 	margin-bottom: 0;
 	margin-top: 70px;
+}
+.titulo span{
+	text-decoration: underline;
 }
 .title-a {
 	font-size: 24px;
@@ -84,15 +136,17 @@ body {
 }
 .guitarras {
 	color: #1F313C;
+	margin-bottom: 60px;
 }
 .guitarras h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 35px;
 }
 .portada {
-	background-image: url('../images/background.png');
+
 	color: white;
 	padding: 20px;
+	height: 500px;
 }
 .portada button {
 	margin-bottom: 70px;
@@ -115,22 +169,21 @@ body {
 	content: '∘';
 	font-size: 50px;
 	line-height: 20px;
-	color: blue;
+	color: white;
 }
 .logotipo {
 	display: inline-block;
+	margin-left: 0;
 }
-
-/* Se pueden repetir y un solo elemento puede tener las clases */
-.contenedor {
-	width: 800px;
-	margin: auto;
+.menu a{
+	color: white;
+	text-decoration: none;
 }
 /* .guitarra img {
 	float: left;
 } */
 .guitarra {
-	margin: 10px;
+	margin: 10px 10px 40px 10px;
 	padding: 10px;
 	/* overflow: hidden; */
 	border: 1px solid #1F313C;
@@ -138,6 +191,9 @@ body {
 }
 .guitarra ol {
 	padding: 0;
+}
+.guitarra.b{
+	height: 190px;
 }
 .derecha {
 	float: right;
@@ -147,19 +203,21 @@ body {
 .izquierda {
 	float: left;
 	position: relative;
-	top: 80px;
 }
 .contenedor-guitarra-a {
 	padding-left: 20px;
 }
 .contenedor-guitarra-b {
 	margin-left: 370px;
+	position: relative;
+	bottom: 90px;
 }
 .header {
 	position: relative;
 }
 .footer {
 	background: #273b47;
+	padding: 50px 10px;
 }
 .contacto {
 	display: flex;
@@ -187,7 +245,6 @@ body {
 	display: flex;
 	width: 400px;
 	color: white;
-	padding: 50px 10px;
 }
 .col1, .col2{
 	display: flex;
@@ -199,6 +256,9 @@ body {
 .col2{
 	align-items: flex-start;
 }
+.col2 .button{
+	margin-top: 15px;
+}
 .intereses label{
 	font-size: 12px;
 }
@@ -208,21 +268,6 @@ body {
 .sexo{
 	margin-top: 12px;
 }
-table{
-	width: 100%;
-}
-th{
-	background: #273b47;
-	color: white;
-}
-th{
-	padding: 10px 20px;
-	text-align: left;
-}
-td{
-	padding: 20px;
-}
-table, td, th{
-	border: 1px solid;
-	border-collapse: collapse;
+.tabla{
+	margin: 50px 0;
 }
